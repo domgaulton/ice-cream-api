@@ -83,9 +83,9 @@ app.listen(3000, function() {
   console.log("Server is listening on port 3000...");
 });
 
-app.post('/dogs', function(req, res) {
-  var dog = req.body;
-  console.log(dog);
-  dogsArr.push(dog);
-  res.send("Dog added!");
-});
+// app.post('/dogs', function(req, res) {
+//   var dog = req.body;
+//   console.log(dog);
+//   dogsArr.push(dog);
+//   res.send("Dog added!");
+// });
