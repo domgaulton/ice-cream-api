@@ -4,6 +4,8 @@ const app = express();
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
+const port = process.env.PORT || 3000;
+
 const iceCreams = [
   {
     name: `Netflix & Chilll'd™`,
@@ -112,11 +114,6 @@ const iceCreams = [
   }
 ];
 
-// Peanut butter cup 4* - 29/04/2020
-// Topped Salted Caramel Brownie 3* - 08/05/2020
-// Baked Alaska 3* - 08/05/2020
-// Chocolate Fudge Brownie 3* - 15/05/2020
-
 app.get('/', function(req, res) {
   res.send(iceCreams)
 });
@@ -124,7 +121,7 @@ app.get('/', function(req, res) {
 app.get('/worst', function(req, res) {
   const worst = iceCreams.reduce(function(prev, current) {
     return (prev.rating < current.rating) ? prev : current
-  }) //returns object
+  })
   const worstRating = worst.rating;
   const worstList = iceCreams.filter(iceCream => {
     return iceCream.rating === worstRating
@@ -135,7 +132,7 @@ app.get('/worst', function(req, res) {
 app.get('/favourite', function(req, res) {
   const fav = iceCreams.reduce(function(prev, current) {
     return (prev.rating > current.rating) ? prev : current
-  }) //returns object
+  })
   const favRating = fav.rating;
   const favList = iceCreams.filter(iceCream => {
     return iceCream.rating === favRating
@@ -146,17 +143,10 @@ app.get('/favourite', function(req, res) {
 app.get('/recent', function(req, res) {
   const recent = iceCreams.reduce(function(prev, current) {
     return (prev.date > current.date) ? prev : current
-  }) //returns object
+  })
   res.send(recent);
 });
 
-app.listen(3000, function() {
-  console.log("Server is listening on port 3000...");
+app.listen(port, function() {
+  console.log(`Server is listening on port ${port}...`);
 });
-
-// app.post('/dogs', function(req, res) {
-//   var dog = req.body;
-//   console.log(dog);
-//   dogsArr.push(dog);
-//   res.send("Dog added!");
-// });
