@@ -106,7 +106,7 @@ const iceCreams = [
     rating: 3,
   },{
     name: 'Chocolate Fudge Brownie',
-    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/baked-alaska-detail-open.png',
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/chocolate-fudge-brownie-detail-new.png',
     url: 'https://www.benjerry.co.uk/flavours/chocolate-fudge-brownie-ice-cream',
     date: new Date(2020, 04, 15),
     description: `Chocolate ice cream with chocolate brownie pieces`,
