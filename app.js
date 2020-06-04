@@ -112,6 +112,22 @@ const iceCreams = [
     description: `Chocolate ice cream with chocolate brownie pieces`,
     tasting_notes: `Didn't think I'd like it as much given the chocolate ice cream but rather surprised.`,
     rating: 3,
+  },{
+    name: 'Topped Chocolate Caramel Cookie Dough',
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/topped-chocolate-caramel-cookie-dough-detail.png',
+    url: 'https://www.benjerry.co.uk/flavours/chocolate-caramel-cookie-dough-topped',
+    date: new Date(2020, 04, 31),
+    description: `Chocolate ice cream with a caramel swirl, chunks of chocolate chip cookie dough, chocolatey chunks and chocolatey topping`,
+    tasting_notes: `Enjoyed the topped chocolate more this time around but sadly the cookie dough and caramel still couldn't outweigh the rich chocolate ice cream.`,
+    rating: 3,
+  },{
+    name: 'Sofa So Good Together',
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/sofa-so-good-together-detail.png',
+    url: 'https://www.benjerry.co.uk/flavours/sofa-so-good-together-ice-cream',
+    date: new Date(2020, 05, 02),
+    description: `Caramel Ice Cream with a Salted Caramel Swirl, Chocolate Brownies and Chocolate Cookies`,
+    tasting_notes: `The classic OG flavours with salted caramel - what a combo!`,
+    rating: 5,
   }
 ];
 
