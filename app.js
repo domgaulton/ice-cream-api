@@ -154,7 +154,7 @@ const iceCreams = [
     rating: 4,
   },{
     name: 'Peanut Butter & Cookies (Non-Diary)',
-    image: 'https://www.benjerry.co.uk/flavours/peanut-butter-and-cookies-non-dairy',
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/peanut-butter-and-cookies-non-dairy-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/peanut-butter-and-cookies-non-dairy',
     date: new Date(2020, 06, 23),
     categories: ['Non-Diary'],
