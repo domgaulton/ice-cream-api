@@ -27,7 +27,7 @@ const iceCreams = [
     tasting_notes: `Not biggest fan of the waffle pieces`,
     rating: 3,
   },{
-    name: `Moo-Phoria Chocolate Cookie Dough`,
+    name: `Chocolate Cookie Dough`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/chocolate-cookie-dough-moophoria-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/chocolate-cookie-dough-moophoria',
     date: new Date(2020, 02, 24),
@@ -153,7 +153,7 @@ const iceCreams = [
     tasting_notes: `Nice bits of caramel and excellent vanilla but wasn't a fan of the chocolate ice cream!`,
     rating: 4,
   },{
-    name: 'Peanut Butter & Cookies (Non-Diary)',
+    name: 'Peanut Butter & Cookies',
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/peanut-butter-and-cookies-non-dairy-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/peanut-butter-and-cookies-non-dairy',
     date: new Date(2020, 05, 23),
@@ -161,9 +161,16 @@ const iceCreams = [
     description: `Vanilla non-dairy ice cream with chocolate sandwich cookies & crunchy peanut butter swirls`,
     tasting_notes: `Bought this as I couldn't find any new flavours but was amazed! The peanut butter has fat so it feels luxurious and the cookies are delcious!`,
     rating: 5,
+  },{
+    name: 'Poppin Popcorn',
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/poppin-popcorn-moophoria-detail.png',
+    url: 'https://www.benjerry.co.uk/flavours/poppin-popcorn-moophoria',
+    date: new Date(2020, 06, 01),
+    categories: ['Moo-Phoria™'],
+    description: `Buttery brown sugar ice cream with sweet and salty caramel swirl and chocolatey popcorn pieces`,
+    tasting_notes: `TBC`,
+    rating: ,
   }
-
-
 ];
 
 // use it before all route definitions
