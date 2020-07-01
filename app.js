@@ -169,7 +169,7 @@ const iceCreams = [
     categories: ['Moo-Phoria™'],
     description: `Buttery brown sugar ice cream with sweet and salty caramel swirl and chocolatey popcorn pieces`,
     tasting_notes: `TBC`,
-    rating: ,
+    rating: 3,
   }
 ];
 
