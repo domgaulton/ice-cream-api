@@ -168,8 +168,17 @@ const iceCreams = [
     date: new Date(2020, 06, 01),
     categories: ['Moo-Phoria™'],
     description: `Buttery brown sugar ice cream with sweet and salty caramel swirl and chocolatey popcorn pieces`,
-    tasting_notes: `TBC`,
+    tasting_notes: `Surprised as I disliked the previous Moo-Phoria™ but this was pretty good! The caramel and popcorn were a nice crunch but the ice cream still lacks (even if it is a good vanilla!)`,
     rating: 3,
+  },{
+    name: 'Chocolate Fudge Brownie',
+    image: 'https://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/chocolate-fudge-brownie-non-dairy-detail.png',
+    url: 'https://www.benjerry.com/flavors/chocolate-fudge-brownie-non-dairy',
+    date: new Date(2020, 06, 04),
+    categories: ['Non-Diary'],
+    description: `Chocolate Non-Dairy Frozen Dessert with Fudge Brownies`,
+    tasting_notes: `Not the best as it lacks the fat in normal ice cream. Thought it might be like Peanut Butter & Cookies but missed the mark!`,
+    rating: 2,
   }
 ];
 
