@@ -178,7 +178,25 @@ const iceCreams = [
     categories: ['Non-Diary'],
     description: `Chocolate Non-Dairy Frozen Dessert with Fudge Brownies`,
     tasting_notes: `Not the best as it lacks the fat in normal ice cream. Thought it might be like Peanut Butter & Cookies but missed the mark!`,
-    rating: 2,
+    rating: 1,
+  },{
+    name: 'Chocolate Cherry Garcia',
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/chocolate-cherry-garcia-moophoria-detail-open.png',
+    url: 'https://www.benjerry.co.uk/flavours/chocolate-cherry-garcia-moophoria',
+    date: new Date(2020, 06, 09),
+    categories: ['Moo-Phoria™'],
+    description: `Chocolate Ice cream with cherries and chocolatey chunks`,
+    tasting_notes: `Surprised with this as Moo-Phoria™ can be hit and miss.`,
+    rating: 3,
+  },{
+    name: `Cookie Dough S'wich Up`,
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/cookie-dough-switch-up-detail.png',
+    url: 'https://www.benjerry.co.uk/flavours/cookie-dough-swich-up-wich',
+    date: new Date(2020, 06, 12),
+    categories: ['Remastered'],
+    description: `Vanilla ice cream with chocolatey sandwich cookies and chunks of chocolate chip cookie dough and a chocolatey cookie swirl. Our legendary Cookie Dough flavour took us 5 years to perfect. 25 years on, we wondered how could we make it even cookier!`,
+    tasting_notes: `TBC`,
+    rating: 4,
   }
 ];
 
