@@ -51,7 +51,7 @@ const iceCreams = [
     date: new Date(2020, 03, 06),
     categories: ['OG'],
     description: `Vanilla ice cream with chunks of chocolate chip cookie dough and chocolatey chunks`,
-    tasting_notes: `Classic and simple`,
+    tasting_notes: `Classic and simple but nothing too exciting - perhaps a little sweet but you know what you're getting!`,
     rating: 3,
   },{
     name: 'Birthday Cake',
@@ -195,8 +195,8 @@ const iceCreams = [
     date: new Date(2020, 06, 12),
     categories: ['Remastered'],
     description: `Vanilla ice cream with chocolatey sandwich cookies and chunks of chocolate chip cookie dough and a chocolatey cookie swirl. Our legendary Cookie Dough flavour took us 5 years to perfect. 25 years on, we wondered how could we make it even cookier!`,
-    tasting_notes: `TBC`,
-    rating: 4,
+    tasting_notes: `Nothing too exciting here - the chocolate sandwich bits tasted a bit like Oreo but with a strange after taste.`,
+    rating: 3,
   }
 ];
 
