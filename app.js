@@ -197,6 +197,15 @@ const iceCreams = [
     description: `Vanilla ice cream with chocolatey sandwich cookies and chunks of chocolate chip cookie dough and a chocolatey cookie swirl. Our legendary Cookie Dough flavour took us 5 years to perfect. 25 years on, we wondered how could we make it even cookier!`,
     tasting_notes: `Nothing too exciting here - the chocolate sandwich bits tasted a bit like Oreo but with a strange after taste.`,
     rating: 3,
+  },{
+    name: `Fairway to Heaven`,
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/fairway-to-heaven-detail.png',
+    url: 'https://www.benjerry.co.uk/flavours/fairway-to-heaven-ice-cream',
+    date: new Date(2020, 06, 27),
+    categories: ['Fairtrade'],
+    description: `This caramelly new Fairtrade flavour magically descended down to us Earthlings from its cosmic existence to become the newest and chunkiest mayor of Caramelville.`,
+    tasting_notes: `A very nice caramel flavour and a solid 4, but nothing particularly exciting from a new flavour in 2020.`,
+    rating: 4,
   }
 ];
 
