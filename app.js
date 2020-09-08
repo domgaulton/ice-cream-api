@@ -10,6 +10,7 @@ const port = process.env.PORT || 4000;
 const iceCreams = [
   {
     name: `Netflix & Chilll'd™`,
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/netflix-chilld-detail-open.png',
     url: 'https://www.benjerry.com/flavors/netflix-and-chillld-ice-cream',
     date: new Date(2020, 02, 17),
@@ -19,6 +20,7 @@ const iceCreams = [
     rating: 5,
   },{
     name: `Cone Together`,
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/cone-together-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/cone-together-ice-cream',
     date: new Date(2020, 02, 21),
@@ -28,6 +30,7 @@ const iceCreams = [
     rating: 3,
   },{
     name: `Chocolate Cookie Dough`,
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/chocolate-cookie-dough-moophoria-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/chocolate-cookie-dough-moophoria',
     date: new Date(2020, 02, 24),
@@ -37,6 +40,7 @@ const iceCreams = [
     rating: 1,
   },{
     name: `Blondie Brownie`,
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/blondie-brownie-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/blondie-brownie-core',
     date: new Date(2020, 03, 02),
@@ -46,6 +50,7 @@ const iceCreams = [
     rating: 4,
   },{
     name: 'Cookie Dough',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/cookie-dough-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/cookie-dough-ice-cream',
     date: new Date(2020, 03, 06),
@@ -55,6 +60,7 @@ const iceCreams = [
     rating: 3,
   },{
     name: 'Birthday Cake',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/birthday-cake-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/birthday-cake-ice-cream',
     date: new Date(2020, 03, 11),
@@ -64,6 +70,7 @@ const iceCreams = [
     rating: 2,
   },{
     name: 'Phish Food',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/phish-food-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/phish-food-ice-cream',
     date: new Date(2020, 03, 11),
@@ -73,6 +80,7 @@ const iceCreams = [
     rating: 2,
   },{
     name: 'Half Baked®',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/half-baked-detail.png',
     url: 'https://www.benjerry.com/flavors/half-baked-ice-cream',
     date: new Date(2020, 03, 19),
@@ -82,6 +90,7 @@ const iceCreams = [
     rating: 4,
   },{
     name: 'Caramel Chew Chew',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/caramel-chew-chew-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/caramel-chew-chew-ice-cream',
     date: new Date(2020, 03, 29),
@@ -91,6 +100,7 @@ const iceCreams = [
     rating: 5,
   },{
     name: 'Peanut Butter Cup',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/peanut-butter-cup-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/peanut-butter-cup-ice-cream',
     date: new Date(2020, 03, 29),
@@ -100,6 +110,7 @@ const iceCreams = [
     rating: 4,
   },{
     name: 'Salted Caramel Brownie',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/topped-salted-caramel-brownie-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/salted-caramel-brownie-topped',
     date: new Date(2020, 04, 08),
@@ -109,6 +120,7 @@ const iceCreams = [
     rating: 4,
   },{
     name: 'Baked Alaska',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/baked-alaska-detail-open.png',
     url: 'https://www.benjerry.co.uk/flavours/baked-alaska-ice-cream',
     date: new Date(2020, 04, 08),
@@ -118,6 +130,7 @@ const iceCreams = [
     rating: 3,
   },{
     name: 'Chocolate Fudge Brownie',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/chocolate-fudge-brownie-detail-new.png',
     url: 'https://www.benjerry.co.uk/flavours/chocolate-fudge-brownie-ice-cream',
     date: new Date(2020, 04, 15),
@@ -127,6 +140,7 @@ const iceCreams = [
     rating: 3,
   },{
     name: 'Topped Chocolate Caramel Cookie Dough',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/topped-chocolate-caramel-cookie-dough-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/chocolate-caramel-cookie-dough-topped',
     date: new Date(2020, 04, 31),
@@ -136,6 +150,7 @@ const iceCreams = [
     rating: 3,
   },{
     name: 'Sofa So Good Together',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/sofa-so-good-together-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/sofa-so-good-together-ice-cream',
     date: new Date(2020, 05, 02),
@@ -145,6 +160,7 @@ const iceCreams = [
     rating: 5,
   },{
     name: 'Karamel Sutra',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/karamel-sutra-detail-closed.png',
     url: 'https://www.benjerry.co.uk/flavours/karamel-sutra-core',
     date: new Date(2020, 05, 11),
@@ -154,6 +170,7 @@ const iceCreams = [
     rating: 4,
   },{
     name: 'Peanut Butter & Cookies',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/peanut-butter-and-cookies-non-dairy-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/peanut-butter-and-cookies-non-dairy',
     date: new Date(2020, 05, 23),
@@ -163,6 +180,7 @@ const iceCreams = [
     rating: 5,
   },{
     name: 'Poppin Popcorn',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/poppin-popcorn-moophoria-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/poppin-popcorn-moophoria',
     date: new Date(2020, 06, 01),
@@ -172,6 +190,7 @@ const iceCreams = [
     rating: 3,
   },{
     name: 'Chocolate Fudge Brownie',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/chocolate-fudge-brownie-non-dairy-detail.png',
     url: 'https://www.benjerry.com/flavors/chocolate-fudge-brownie-non-dairy',
     date: new Date(2020, 06, 04),
@@ -181,6 +200,7 @@ const iceCreams = [
     rating: 1,
   },{
     name: 'Chocolate Cherry Garcia',
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/chocolate-cherry-garcia-moophoria-detail-open.png',
     url: 'https://www.benjerry.co.uk/flavours/chocolate-cherry-garcia-moophoria',
     date: new Date(2020, 06, 09),
@@ -190,6 +210,7 @@ const iceCreams = [
     rating: 3,
   },{
     name: `Cookie Dough S'wich Up`,
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/cookie-dough-switch-up-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/cookie-dough-swich-up-wich',
     date: new Date(2020, 06, 12),
@@ -199,6 +220,7 @@ const iceCreams = [
     rating: 3,
   },{
     name: `Fairway to Heaven`,
+    brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/fairway-to-heaven-detail.png',
     url: 'https://www.benjerry.co.uk/flavours/fairway-to-heaven-ice-cream',
     date: new Date(2020, 06, 27),
@@ -206,6 +228,26 @@ const iceCreams = [
     description: `This caramelly new Fairtrade flavour magically descended down to us Earthlings from its cosmic existence to become the newest and chunkiest mayor of Caramelville.`,
     tasting_notes: `A very nice caramel flavour and a solid 4, but nothing particularly exciting from a new flavour in 2020.`,
     rating: 4,
+  },{
+    name: `Caramel Pecan`,
+    brand: 'Judes',
+    image: 'https://assets.sainsburys-groceries.co.uk/gol/7806443/1/640x640.jpg',
+    url: 'https://www.judes.co.uk/products/ice-cream',
+    date: new Date(2020, 08, 01),
+    categories: ['OG'],
+    description: `Caramel swirls and chocolate covered pecan pieces.`,
+    tasting_notes: `Nice classic ice cream but the pecan pieces felt a little low budget.`,
+    rating: 3,
+  },{
+    name: `Caramel Pecan`,
+    brand: `Kelly's of Cornwall`,
+    image: 'https://digitalcontent.api.tesco.com/v2/media/ghs/1583f472-b747-45d8-be73-6853830b1b9d/snapshotimagehandler_2087845520.jpeg?h=540&w=540',
+    url: 'https://en.wikipedia.org/wiki/Kelly%27s_of_Cornwall',
+    date: new Date(2020, 08, 06),
+    categories: ['OG'],
+    description: `Proper Cornish ice cream, straight from the heart of Cornwall carefully selected finest ingredients including fresh milk and clotted cream from local dairy herds that graze on Cornwall's lush green pastures, which gives the ice cream its rich velvet smooth taste that everyone loves.`,
+    tasting_notes: `Very creamy ice cream.`,
+    rating: 3,
   }
 ];
 
