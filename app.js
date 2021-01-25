@@ -229,6 +229,16 @@ const iceCreams = [
     tasting_notes: `A very nice caramel flavour and a solid 4, but nothing particularly exciting from a new flavour in 2020.`,
     rating: 4,
   },{
+    name: `Minter Wonderland`,
+    brand: `Ben & Jerry's`,
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/minter-wonderland-closed-detail.png',
+    url: 'https://www.benjerry.co.uk/flavours/chip-happens-ice-cream',
+    date: new Date(2020, 10, 28),
+    categories: ['Limited Edition'],
+    description: `Mint Ice Cream with Chocolatey Chunks. Back by popular demand for the chilly season, one of Ben & Jerry's most wintry flavours...Minter Wonderland!`,
+    tasting_notes: `Pretty plain mint flavour so wasn't too wowwed by this.`,
+    rating: 3,
+  },{
     name: `Chip Happens`,
     brand: `Ben & Jerry's`,
     image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/chip-happens-opened-detail.png',
