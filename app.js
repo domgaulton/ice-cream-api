@@ -258,6 +258,26 @@ const iceCreams = [
     description: `Coconut flavoured ice cream with caramel & cookie swirls and chocolatey pieces`,
     tasting_notes: `Far better than I thought it would be from a coconut ice cream! Nice and creamy with excellent cookie dough chunks.`,
     rating: 4,
+  },{
+    name: `Rain-dough Cookie Dough Twist`,
+    brand: `Ben & Jerry's`,
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/rain-dough-cookie-dough-twist-detail-open.png',
+    url: 'https://www.benjerry.co.uk/flavours/rain-dough-cookie-dough-twist',
+    date: new Date(2021, 01, 11),
+    categories: ['Twist'],
+    description: `Vanilla ice cream with a swirly rainbow sprinkled cookie dough centre and colourful chunks.`,
+    tasting_notes: `Bit gimicky and not enough colourful chunks. Cookie dough in one spot and not spread around.`,
+    rating: 3,
+  },{
+    name: `Cookie Vermont-ster Sundae`,
+    brand: `Ben & Jerry's`,
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/flavors-redesign-details-2016/ecommerce-assets/sundaes/cookie-vermont-ster-1.png',
+    url: 'https://www.benjerry.co.uk/flavours/cookie-vermontster-sundae',
+    date: new Date(2021, 02, 14),
+    categories: ['Sundae'],
+    description: `Sweet Cream Ice Cream with Chocolate Chip Cookies & Chocolatey Cookie Swirls, Topped with Creamy Whipped Ice Cream, Sea Salt Chocolatey Swirls & Chocolatey Chunks`,
+    tasting_notes: `Delicious flavours and textures! Lots going on and a complete surprise!`,
+    rating: 5,
   }
 ];
 
