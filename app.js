@@ -278,6 +278,16 @@ const iceCreams = [
     description: `Sweet Cream Ice Cream with Chocolate Chip Cookies & Chocolatey Cookie Swirls, Topped with Creamy Whipped Ice Cream, Sea Salt Chocolatey Swirls & Chocolatey Chunks`,
     tasting_notes: `Delicious flavours and textures! Lots going on and a complete surprise!`,
     rating: 5,
+  },{
+    name: `Hazel-nuttin' but Chocolate Sundae`,
+    brand: `Ben & Jerry's`,
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/flavors-redesign-details-2016/ecommerce-assets/sundaes/Hazel-nuttin-but-Chocolate-1.png',
+    url: 'https://www.benjerry.co.uk/flavours/hazel-nuttin-but-chocolate-sundae',
+    date: new Date(2021, 03, 02),
+    categories: ['Sundae'],
+    description: `Chocolate Hazelnut Ice Cream with Brownie Pieces and Sea Salt Chocolatey Swirls, Topped with Creamy Whipped Ice Cream, Chocolatey Hazelnut Swirls and Chocolatey Chunks.`,
+    tasting_notes: `Forgot what a treat hazelnut (think nutella) flavours in the ice cream were!`,
+    rating: 5,
   }
 ];
 
