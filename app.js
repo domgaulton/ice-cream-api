@@ -288,6 +288,16 @@ const iceCreams = [
     description: `Chocolate Hazelnut Ice Cream with Brownie Pieces and Sea Salt Chocolatey Swirls, Topped with Creamy Whipped Ice Cream, Chocolatey Hazelnut Swirls and Chocolatey Chunks.`,
     tasting_notes: `Forgot what a treat hazelnut (think nutella) flavours in the ice cream were!`,
     rating: 5,
+  },{
+    name: `Caramel Brownie Party`,
+    brand: `Ben & Jerry's`,
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/caramel-brownie-party-detail.png',
+    url: 'https://www.benjerry.co.uk/flavours/caramel-brownie-party-ice-cream',
+    date: new Date(2021, 06, 09),
+    categories: ['Limited Edition'],
+    description: `Caramel Ice Cream with Brownies, Chocolate Cookies & a Salted Caramel Swirl`,
+    tasting_notes: `Really strong ice cream here, salted caramel swirls, chocolate cookies and brownies in a vanilla ice cream. Banging.`,
+    rating: 5,
   }
 ];
 
