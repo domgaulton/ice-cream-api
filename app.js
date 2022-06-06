@@ -298,6 +298,26 @@ const iceCreams = [
     description: `Caramel Ice Cream with Brownies, Chocolate Cookies & a Salted Caramel Swirl`,
     tasting_notes: `Really strong ice cream here, salted caramel swirls, chocolate cookies and brownies in a vanilla ice cream. Banging.`,
     rating: 5,
+  },{
+    name: `Coffee Coffee BuzzBuzzBuzz!`,
+    brand: `Ben & Jerry's`,
+    image: 'https://www.benjerry.com/files/live/sites/systemsite/files/flavors/products/us/pint/coffee-coffee-buzz-detail.png',
+    url: 'https://www.benjerry.com/flavors/coffee-coffee-buzzbuzzbuzz-ice-cream',
+    date: new Date(2021, 06, 19),
+    categories: ['USA Only'],
+    description: `Coffee Ice Cream with Espresso Bean Fudge Chunks`,
+    tasting_notes: `Pretty decent coffee flavour but not an exciting Ben & Jerry's to write home about!`,
+    rating: 3,
+  },{
+    name: `Vanilla Pecan Blondie`,
+    brand: `Ben & Jerry's`,
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/vanilla-pecan-blondie-detail.png',
+    url: 'https://www.benjerry.co.uk/flavours/vanilla-pecan-blondie-ice-cream',
+    date: new Date(2021, 07, 05),
+    categories: [''],
+    description: `Vanilla Ice Cream with a Salted Caramel Swirl, Caramelised Pecans and Blondie Brownie Chunks`,
+    tasting_notes: `Bit of a plasticy taste and not much from the blondie brownie nor pecans`,
+    rating: 2,
   }
 ];
 
