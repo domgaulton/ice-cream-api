@@ -12,4 +12,5 @@ $ git push heroku master
 $ brew tap heroku/brew && brew install heroku
 $ heroku login
 $ heroku git:remote -a ice-creams-api
+$ git push heroku master
 ```
