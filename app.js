@@ -318,6 +318,16 @@ const iceCreams = [
     description: `Vanilla Ice Cream with a Salted Caramel Swirl, Caramelised Pecans and Blondie Brownie Chunks`,
     tasting_notes: `Bit of a plasticy taste and not much from the blondie brownie nor pecans`,
     rating: 2,
+  },{
+    name: `Oh My! Banoffee Pie! Sundae`,
+    brand: `Ben & Jerry's`,
+    image: 'https://www.benjerry.co.uk/files/live/sites/systemsite/files/flavors/products/eu/pints/harmony/oh-my-banoffee-pie-detail.png',
+    url: 'https://www.benjerry.co.uk/flavours/oh-my-banoffee-pie-sundae',
+    date: new Date(2021, 09, 23),
+    categories: ['Sundae'],
+    description: `Banana with Chocolatey Caramel Cups & Cookie Swirls, Topped with Creamy Whipped Ice Cream, Caramel Swirls & Chocolatey Chunks`,
+    tasting_notes: `If you like a banoffee pie this one is for you! Delicious creamy ice cream with biscuit base chunks and chocolate nuggets throughout. `,
+    rating: 5,
   }
 ];
 
